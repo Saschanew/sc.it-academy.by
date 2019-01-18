@@ -13,7 +13,7 @@ public class InputForNewStory implements ViewInputCommand{
 		request.storyName=Helper.readString(); 
 		System.out.println("Введите популярность");
 		request.ranking=Helper.readInt();
-		System.out.println("Введите число печатных знаков знаков");
+		System.out.println("Введите число печатных знаков");
 		request.numbToken=Helper.readInt(); 	
 		
 		return request;
